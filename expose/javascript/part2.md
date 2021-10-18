@@ -10,27 +10,27 @@
 10. 3 if the code didn't stop at line 7 for trying to change the a const. Const has block scope, so line 12 is within its scope.
 11. If the code didn't stop at line 7 for error of changing a const, the code will return an empty array.
 12. 
-A. student['name'];
-B. student['Grad Year'];
-C. student.greeting();
-D. student['Favorite Teacher']['name'];
-E. student['courseLoad'][0];
+A. student['name'];\
+B. student['Grad Year'];\
+C. student.greeting();\
+D. student['Favorite Teacher']['name'];\
+E. student['courseLoad'][0];\
 13.  
-A. '32' ;integer map to string, so '3' + '2'
-B. 1 ;string map to integer, 3 - 2
-C. 3 ;null map to 0, 3 + 0
-D. '3null' ; null is now string 'null'
-E. 4 ; true map to 1, 1 + 3
-F. 0 ; both false and null map to 0
-G. '3undefined' ; undefined is now a string
-H. NaN ; you can not subtract undefined
+A. '32' ;integer map to string, so '3' + '2'\
+B. 1 ;string map to integer, 3 - 2\
+C. 3 ;null map to 0, 3 + 0\
+D. '3null' ; null is now string 'null'\
+E. 4 ; true map to 1, 1 + 3\
+F. 0 ; both false and null map to 0\
+G. '3undefined' ; undefined is now a string\
+H. NaN ; you can not subtract undefined\
 14. 
-A. true ; '2' convert to number 2
-B. false ; string comparison
-C. true ; '2' convert to number 2
-D. false ; comparing different type
-E. false ; true map to 1
-F. true ; Boolean(2) is true
+A. true ; '2' convert to number 2\
+B. false ; string comparison\
+C. true ; '2' convert to number 2\
+D. false ; comparing different type\
+E. false ; true map to 1\
+F. true ; Boolean(2) is true\
 15. == will convert type, === does not convert type
 16. see part2-question16.js
 17. [2,4,6] : array[1,2,3], and function doSomething passed to modifyArry. In modifyArray, it loop through the array, call function "doSomething(array[i])" and push the returned value into newArr. Return array newArr at the end. doSomething multiple a number by 2, so in the end, newArr contain [2,4,6].
